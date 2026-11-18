@@ -3,7 +3,7 @@
 # 🌍 Thuledu Tshabalala: Building for the SDGs
 ### Aspiring UI/UX Designer · Software Developer · Data Analyst · Portfolio themed around the UN Sustainable Development Goals
 
-**[🔗 Live site](https://thuledu.github.io/sdg-uiux-portfolio/)** · **[💼 LinkedIn](https://www.linkedin.com/in/thuledu-tshabalala-b25316228)** · **[🐙 GitHub](https://github.com/Thuledu)** · **[🎨 Figma](https://www.figma.com/@thulitshabalala)** · **[🧩 Design board](https://www.figma.com/board/1IphnwXbVOTchwQUrIoKvX/Portfolio-%E2%80%94-Home)** · **[🎨 Figma](https://www.figma.com/@thulitshabalala)** · **[📄 CV](assets/Thuledu_Tshabalala_CV.pdf)** · **[✉️ Email](mailto:thuli.tshabalala98@gmail.com)**
+**[🔗 Live site](https://thuledu.github.io/sdg-uiux-portfolio/)** · **[💼 LinkedIn](https://www.linkedin.com/in/thuledu-tshabalala-b25316228)** · **[🐙 GitHub]((https://github.com/Thuledu?tab=repositories))** · **[🎨 Figma](https://www.figma.com/files/team/1704792828215787509/recents-and-sharing/recently-viewed?fuid=1002221477123285012)** · **[🧩 Design board](https://www.figma.com/board/s6Kvc5ErpWhAEcHIoclRAa/Portfolio-%E2%80%94-SDG-Home?node-id=0-1&t=P7Biz8RZfmnKRrem-0)** · **[📄 CV](assets/Thuledu_Tshabalala_CV_BBD_UIUX.pdf)** · **[✉️ Email](mailto:thuli.tshabalala98@gmail.com)**
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
@@ -46,7 +46,7 @@ Each card opens a project page covering **Objective → SDG lens → Data → Ap
 <img src="assets/preview-case.png" alt="An open project page showing the objective, SDG lens and dataset" width="100%" />
 
 ### 💧 Work in progress: AquaPoint (SDG 6)
-A **UI/UX concept** I'm designing in [Figma](https://www.figma.com/@thulitshabalala): a simple mobile flow for reporting broken communal taps and boreholes, with icon-first reporting, offline drafts and WCAG AA contrast. It's clearly labelled on the site as a concept. User research and testing are the next steps.
+A **UI/UX concept** I'm designing in [Figma]((https://www.figma.com/files/team/1704792828215787509/recents-and-sharing/recently-viewed?fuid=1002221477123285012)): a simple mobile flow for reporting broken communal taps and boreholes, with icon-first reporting, offline drafts and WCAG AA contrast. It's clearly labelled on the site as a concept. User research and testing are the next steps.
 
 ---
 
@@ -64,7 +64,7 @@ A **UI/UX concept** I'm designing in [Figma](https://www.figma.com/@thulitshabal
 
 ## 🎨 Design process
 
-I designed this portfolio in Figma before writing any code. You can see the wireframes and layout decisions on the **[Portfolio — Home design board](https://www.figma.com/board/1IphnwXbVOTchwQUrIoKvX/Portfolio-%E2%80%94-Home)**. I then built it in HTML, CSS and JavaScript, keeping the spacing, colour tokens and type scale consistent with the design.
+I designed this portfolio in Figma before writing any code. You can see the wireframes and layout decisions on the **[Portfolio — Home design board](https://www.figma.com/board/s6Kvc5ErpWhAEcHIoclRAa/Portfolio-%E2%80%94-SDG-Home?node-id=0-1&t=P7Biz8RZfmnKRrem-0)**. I then built it in HTML, CSS and JavaScript, keeping the spacing, colour tokens and type scale consistent with the design.
 
 ---
 
@@ -110,13 +110,6 @@ git clone https://github.com/Thuledu/sdg-uiux-portfolio.git
 cd sdg-uiux-portfolio
 python -m http.server 8000   # then open http://localhost:8000
 ```
-
-## 🌐 Deploy to GitHub Pages
-
-1. Create a public repository called **`sdg-uiux-portfolio`** on GitHub (the CV links to `thuledu.github.io/sdg-uiux-portfolio`).
-2. Upload these files or `git push` them to the `main` branch.
-3. Go to **Settings → Pages → Build and deployment → Deploy from a branch**, choose `main` and `/ (root)`, then click **Save**.
-4. About a minute later the site is live at **https://thuledu.github.io/sdg-uiux-portfolio/**.
 
 ---
 
