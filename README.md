@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🌍 Thuledu Tshabalala: Building for the SDGs
-### Software Developer · Data Analyst · Portfolio themed around the UN Sustainable Development Goals
+### Aspiring UI/UX Designer · Software Developer · Data Analyst · Portfolio themed around the UN Sustainable Development Goals
 
 **[🔗 Live site](https://thuledu.github.io/sdg-uiux-portfolio/)** · **[💼 LinkedIn](https://www.linkedin.com/in/thuledu-tshabalala-b25316228)** · **[🐙 GitHub](https://github.com/Thuledu)** · **[🎨 Figma](https://www.figma.com/@thulitshabalala)** · **[🧩 Design board](https://www.figma.com/board/1IphnwXbVOTchwQUrIoKvX/Portfolio-%E2%80%94-Home)** · **[🎨 Figma](https://www.figma.com/@thulitshabalala)** · **[📄 CV](assets/Thuledu_Tshabalala_CV.pdf)** · **[✉️ Email](mailto:thuli.tshabalala98@gmail.com)**
 
