@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thuledu Tshabalala — Software Developer &amp; Data Analyst | Building for the SDGs</title>
+  <meta name="description" content="Portfolio of Thuledu Tshabalala, Graduate Software Developer and Data Analytics postgraduate in Gauteng, South Africa. Software and data projects viewed through the UN Sustainable Development Goals." />
+  <meta name="theme-color" content="#0f2a24" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <a href="#top" class="nav__logo" aria-label="Home">
+      <span class="logo-wheel" aria-hidden="true"></span>
+      <span>Thuledu&nbsp;Tshabalala</span>
+    </a>
+    <nav aria-label="Primary">
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Menu</span><span></span><span></span>
+      </button>
+      <ul id="nav-links" class="nav__links">
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#concept">Concept</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="btn btn--small">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__text">
+        <p class="eyebrow">Asipring UI/UX Designer · Graduate Software Developer · Data Analytics · Gauteng, South Africa</p>
+        <h1 class="hero__title">
+          Building software &amp; data for
+          <span class="hero__rotator" aria-live="polite"><span id="rotator">people</span></span>
+          <br />and the planet.
+        </h1>
+        <p class="hero__lead">
+          I'm Thuledu, a backend developer at MTN and a final-year Postgraduate Diploma in Data Analytics student.
+          I build APIs in TypeScript and Node.js, train machine learning models in Python, and I'm interested in how
+          useful, intuitive, accessible software can help South Africa reach the UN's 17 Sustainable Development Goals.
+        </p>
+        <div class="hero__cta">
+          <a href="#work" class="btn">View projects</a>
+          <a href="assets/Thuledu_Tshabalala_CV.pdf" class="btn btn--ghost" download>Download CV</a>
+          <a href="https://github.com/Thuledu" class="btn btn--ghost" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <p class="hero__design"><span aria-hidden="true">🎨</span> Designed in Figma first. <a href="https://www.figma.com/board/1IphnwXbVOTchwQUrIoKvX/Portfolio-%E2%80%94-Home" target="_blank" rel="noopener">See the design board →</a></p>
+        <ul class="hero__stats" aria-label="Quick facts">
+          <li><strong data-count="4">0</strong><span>machine learning projects</span></li>
+          <li><strong data-count="5">0</strong><span>certifications</span></li>
+          <li><strong data-count="95" data-suffix="%">0</strong><span>Data Analytics 1 (distinction)</span></li>
+        </ul>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <div class="sdg-wheel" id="sdgWheel"></div>
+        <div class="sdg-wheel__center">
+          <span>17</span>
+          <small>goals<br />2030</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SDG STRIP ============ -->
+    <section class="goals" aria-labelledby="goals-title">
+      <h2 id="goals-title" class="sr-only">The 17 Sustainable Development Goals</h2>
+      <p class="goals__hint">Hover or tab through the goals. The highlighted ones connect to my projects and work.</p>
+      <ol class="goals__grid" id="goalsGrid"></ol>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="section__head">
+        <p class="eyebrow">Selected work</p>
+        <h2 id="work-title">Projects</h2>
+        <p class="section__sub">Four machine learning projects from my Postgraduate Diploma in Data Analytics. Every number comes from my notebooks and reports on GitHub, and each card says which SDG the work could support.</p>
+      </div>
+
+      <div class="filters" role="toolbar" aria-label="Filter projects">
+        <button class="chip is-active" data-filter="all" aria-pressed="true">All</button>
+        <button class="chip" data-filter="health" aria-pressed="false">Health (SDG 3)</button>
+        <button class="chip" data-filter="regression" aria-pressed="false">Regression</button>
+        <button class="chip" data-filter="classification" aria-pressed="false">Classification</button>
+        <button class="chip" data-filter="nlp" aria-pressed="false">NLP / Deep learning</button>
+      </div>
+
+      <div class="projects" id="projects"><!-- injected by script.js --></div>
+    </section>
+
+    <!-- ============ CONCEPT (SDG 6) ============ -->
+    <section class="section concept" id="concept" aria-labelledby="concept-title">
+      <div class="concept__text">
+        <p class="eyebrow">Work in progress · UI/UX concept</p>
+        <h2 id="concept-title">AquaPoint: reporting broken water points</h2>
+        <p class="concept__lead">
+          My next project is a UI/UX concept for <strong>SDG 6: Clean Water &amp; Sanitation</strong>.
+          I'm designing it in Figma. It's a simple mobile flow that would let anyone report a broken communal tap or borehole
+          so maintenance teams hear about it sooner.
+        </p>
+        <div class="concept__facts">
+          <div class="fact">
+            <b>6.1</b>
+            <span>The SDG target to give everyone safe, affordable drinking water.</span>
+          </div>
+          <div class="fact">
+            <b>80%</b>
+            <span>The estimated share of the world's water-collection burden carried by women and girls (FairAction).</span>
+          </div>
+        </div>
+        <h3>What I'm exploring</h3>
+        <ul class="checklist">
+          <li>Icon-first fault reporting for low-literacy users</li>
+          <li>Offline drafts that sync when signal returns</li>
+          <li>Large touch targets and WCAG AA colour contrast</li>
+          <li>A simple status tracker so reporters can see that something happened</li>
+        </ul>
+        <p class="concept__note">This is a concept, not a shipped product. I haven't done user research or testing on it yet. Talking to community members is the next step.</p>
+        <a class="btn" href="https://www.figma.com/@thulitshabalala" target="_blank" rel="noopener">Follow it on Figma</a>
+      </div>
+      <div class="concept__visual" aria-hidden="true" style="--c: var(--sdg6)">
+        <div class="phone phone--lg">
+          <div class="screen"><div class="screen__notch"></div>
+            <div class="screen__title">Water points near you</div>
+            <div class="map-ui"></div>
+            <div class="card-ui"><i></i><div><span class="bar"></span><span class="bar bar--short"></span></div></div>
+            <div class="card-ui"><i style="background:var(--sdg1)"></i><div><span class="bar"></span><span class="bar bar--short"></span></div></div>
+            <div class="cta-ui"></div>
+          </div>
+        </div>
+        <div class="phone phone--lg">
+          <div class="screen"><div class="screen__notch"></div>
+            <div class="screen__title">What's wrong?</div>
+            <div class="icon-grid"><i>💧</i><i>🚱</i><i>🔧</i><i>⚠️</i><i>🧪</i><i>➕</i></div>
+            <div class="bar"></div><div class="bar bar--short"></div>
+            <div class="cta-ui"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section section--dark" id="process" aria-labelledby="process-title">
+      <div class="section__head">
+        <p class="eyebrow">How I work</p>
+        <h2 id="process-title">Curious, evidence-led and honest about limits</h2>
+      </div>
+      <ol class="process">
+        <li class="process__step">
+          <span class="process__num">01</span>
+          <h3>Understand</h3>
+          <p>Start with the business or human problem and the requirements before touching code or data.</p>
+          <ul class="tags"><li>Requirements analysis</li><li>Stakeholders</li></ul>
+        </li>
+        <li class="process__step">
+          <span class="process__num">02</span>
+          <h3>Explore</h3>
+          <p>Clean the data and run exploratory analysis: duplicates, class imbalance, distributions and correlations.</p>
+          <ul class="tags"><li>pandas</li><li>EDA</li><li>Seaborn</li></ul>
+        </li>
+        <li class="process__step">
+          <span class="process__num">03</span>
+          <h3>Build</h3>
+          <p>Engineer features and services in small, maintainable pieces using Git-based workflows.</p>
+          <ul class="tags"><li>TypeScript</li><li>Python</li><li>Git</li></ul>
+        </li>
+        <li class="process__step">
+          <span class="process__num">04</span>
+          <h3>Evaluate</h3>
+          <p>Compare models, choose the right metric for the problem (like recall in health) and find what's breaking.</p>
+          <ul class="tags"><li>Recall</li><li>AUC-ROC</li><li>Debugging</li></ul>
+        </li>
+        <li class="process__step">
+          <span class="process__num">05</span>
+          <h3>Document</h3>
+          <p>Write up the findings, limitations and next steps so the team can trust the work and build on it.</p>
+          <ul class="tags"><li>Docs</li><li>Agile</li><li>Knowledge sharing</li></ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience" aria-labelledby="exp-title">
+      <div class="section__head">
+        <p class="eyebrow">Experience</p>
+        <h2 id="exp-title">Where I've worked</h2>
+      </div>
+      <ol class="jobs" id="jobs"><!-- injected by script.js --></ol>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="about__portrait" aria-hidden="true">
+        <div class="portrait"><span>TT</span></div>
+        <div class="portrait__badge">📍 Germiston, Gauteng</div>
+      </div>
+      <div class="about__text">
+        <p class="eyebrow">About me</p>
+        <h2 id="about-title">Hi, I'm Thuledu.</h2>
+        <p>
+          I studied Application Development at The IIE Varsity College and I'm now in the final year of a Postgraduate
+          Diploma in Data Analytics at The IIE Emeris. I've worked in enterprise procurement technology,
+          in internal audit at FirstRand and now in backend development at MTN. I like being the person who
+          connects the business requirement to the technical solution.
+        </p>
+        <p>
+          The SDGs give me a way to ask a better question about every project: <em>who could this help?</em>
+          South Africa and the UN have a Sustainable Development Cooperation Framework built around the goals,
+          and I'd like my work as a developer to contribute to them.
+        </p>
+
+        <div class="skills">
+          <div>
+            <h3>Software</h3>
+            <ul class="tags"><li>TypeScript</li><li>JavaScript</li><li>Node.js</li><li>APIs &amp; microservices</li><li>HTML/CSS</li><li>SQL</li></ul>
+          </div>
+          <div>
+            <h3>Data &amp; ML</h3>
+            <ul class="tags"><li>Python</li><li>pandas</li><li>scikit-learn</li><li>TensorFlow/Keras</li><li>PySpark</li><li>Tableau</li></ul>
+          </div>
+          <div>
+            <h3>Cloud &amp; Ways of working</h3>
+            <ul class="tags"><li>Microsoft Azure</li><li>Azure DevOps</li><li>Git &amp; GitHub</li><li>Agile/Scrum</li><li>SQL Server</li><li>MongoDB</li></ul>
+          </div>
+        </div>
+
+        <div class="edu">
+          <h3>Education</h3>
+          <ol>
+            <li><span>Final year</span><div><b>Postgraduate Diploma in Data Analytics</b> (NQF 8), The IIE Emeris<small>Data Analytics 1: 95% (distinction) · Data Science: 80% (distinction)</small></div></li>
+            <li><span>2022</span><div><b>BCIS in Application Development</b> (NQF 7), The IIE Varsity College<small>Open Source Coding 97% · Work Integrated Learning 91% · Software Engineering 83%</small></div></li>
+            <li><span>2019</span><div><b>Higher Certificate in IT (Support Services)</b> (NQF 5), The IIE Varsity College<small>Intro to Personal Computing 96% · Web Development 89%</small></div></li>
+          </ol>
+        </div>
+
+        <div class="certs">
+          <h3>Certifications</h3>
+          <ul class="tags tags--certs">
+            <li>Microsoft Azure Fundamentals (AZ-900) · 2022</li>
+            <li>Microsoft Azure Data Fundamentals (DP-900) · 2022</li>
+            <li>Carbon &amp; ESG Analyst, University of Cambridge Online (with Localized) · 2025</li>
+            <li>SQL / Business Analysis, Signature Academy · 2025</li>
+            <li>Data Analysis Industry Training, Brainnest · 2022</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SDG SOURCES ============ -->
+    <section class="section sources" aria-labelledby="sources-title">
+      <div class="section__head">
+        <p class="eyebrow">Learn more about the goals</p>
+        <h2 id="sources-title">The SDGs, in South Africa and beyond</h2>
+      </div>
+      <div class="sources__grid">
+        <a class="source" href="https://sdgs.un.org/goals" target="_blank" rel="noopener">
+          <span class="source__tag">UN DESA</span>
+          <h3>The 17 Goals</h3>
+          <p>The official goals and targets of the 2030 Agenda for Sustainable Development.</p>
+          <span class="source__go">sdgs.un.org →</span>
+        </a>
+        <a class="source" href="https://southafrica.un.org/en/sdgs" target="_blank" rel="noopener">
+          <span class="source__tag">UN in South Africa</span>
+          <h3>The SDGs in South Africa</h3>
+          <p>How the UN and the South African Government work towards the goals through the 2020–2025 Cooperation Framework.</p>
+          <span class="source__go">southafrica.un.org →</span>
+        </a>
+        <a class="source" href="https://fairaction.ngo/education-and-research/water-and-the-un-sdgs" target="_blank" rel="noopener">
+          <span class="source__tag">FairAction</span>
+          <h3>Water &amp; the SDGs</h3>
+          <p>Why safe water is linked to every other goal, from health and education to gender equality.</p>
+          <span class="source__go">fairaction.ngo →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact__card">
+        <p class="eyebrow">Get in touch</p>
+        <h2 id="contact-title">Let's build something that matters.</h2>
+        <p>I'm open to graduate software engineering and data opportunities with teams that care about real-world impact.</p>
+        <div class="contact__links">
+          <a class="btn" href="mailto:thuli.tshabalala98@gmail.com">thuli.tshabalala98@gmail.com</a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/thuledu-tshabalala-b25316228" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn--ghost" href="https://github.com/Thuledu" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn--ghost" href="https://www.figma.com/@thulitshabalala" target="_blank" rel="noopener">Figma</a>
+          <a class="btn btn--ghost" href="https://www.figma.com/board/1IphnwXbVOTchwQUrIoKvX/Portfolio-%E2%80%94-Home" target="_blank" rel="noopener">Design board</a>
+          <a class="btn btn--ghost" href="assets/Thuledu_Tshabalala_CV.pdf" download>CV (PDF)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Thuledu Tshabalala · <a href="https://www.figma.com/board/1IphnwXbVOTchwQUrIoKvX/Portfolio-%E2%80%94-Home" target="_blank" rel="noopener">Designed in Figma</a>, coded with HTML, CSS &amp; vanilla JavaScript · Hosted on GitHub Pages</p>
+    <p class="footer__note">This is a personal portfolio and isn't affiliated with the United Nations. SDG colours are used for educational purposes.</p>
+  </footer>
+
+  <!-- ============ CASE STUDY DIALOG ============ -->
+  <dialog class="case" id="caseDialog" aria-labelledby="caseTitle">
+    <button class="case__close" id="caseClose" aria-label="Close project">✕</button>
+    <article id="caseBody"></article>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
