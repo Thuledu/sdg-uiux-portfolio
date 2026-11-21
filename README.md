@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🌍 Thuledu Tshabalala: Building for the SDGs
-### Aspiring UI/UX Designer · Software Developer · Data Analyst · Portfolio themed around the UN Sustainable Development Goals
+### Graduate Software Developer · Data and AI · UI/UX · Portfolio themed around the UN Sustainable Development Goals
 
 **[🔗 Live site](https://thuledu.github.io/sdg-uiux-portfolio/)** · **[💼 LinkedIn](https://www.linkedin.com/in/thuledu-tshabalala-b25316228)** · **[🐙 GitHub]((https://github.com/Thuledu?tab=repositories))** · **[🎨 Figma](https://www.figma.com/files/team/1704792828215787509/recents-and-sharing/recently-viewed?fuid=1002221477123285012)** · **[🧩 Design board](https://www.figma.com/board/s6Kvc5ErpWhAEcHIoclRAa/Portfolio-%E2%80%94-SDG-Home?node-id=0-1&t=P7Biz8RZfmnKRrem-0)** · **[📄 CV](assets/Thuledu_Tshabalala_CV_BBD_UIUX.pdf)** · **[✉️ Email](mailto:thuli.tshabalala98@gmail.com)**
 
@@ -20,7 +20,7 @@
 
 ## 👋 About me
 
-I'm **Thuledu Tshabalala**, a **Graduate Software Developer at MTN** in Gauteng, South Africa. I build backend APIs and microservices with **TypeScript and Node.js** in an Agile/Scrum team, and I'm in the final year of an **NQF 8 Postgraduate Diploma in Data Analytics** at The IIE Emeris (distinctions in Data Analytics 1 and Data Science).
+I'm **Thuledu Tshabalala**, a **Graduate Software Developer at MTN** in Gauteng, South Africa. I supported backend APIs and microservices development with **TypeScript and Node.js** in an Agile/Scrum team, and I'm in the final year of an **NQF 8 Postgraduate Diploma in Data Analytics** at The IIE Emeris (distinctions in Data Analytics 1 and Data Science).
 
 I designed and coded this portfolio myself to bring my work together in one place. It's themed around the **UN's 17 Sustainable Development Goals** because I want my work as a developer to make a real-world difference, especially in South Africa.
 
